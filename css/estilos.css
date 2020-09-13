@@ -1,0 +1,226 @@
+/* FONTES */
+@font-face{
+    font-family: font_prin;
+    src: url(fonts/coolvetica.ttf);
+}
+
+@font-face{
+    font-family: font_sec;
+    src: url(fonts/vogue.ttf);
+}
+
+/* padronizando todas as tags */
+*{
+    margin: 0px;
+    padding: 0px;
+    font: 14px font_prin;
+}
+
+/* topo */
+header{
+    background-color: rgb(228, 228, 228);
+    overflow: auto;
+}
+
+header img{
+    float: left;
+    margin: 15px;
+}
+
+header nav{
+    float: right;
+}
+
+header a{
+    display: inline-block;
+    padding-right: 15px;
+    padding-top: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+header a:hover{
+    color: blue;
+}
+
+/* conteúdo principal */
+main{
+    width: 1150px;
+    margin: 0 auto;
+    /* border: 1px solid black */
+}
+
+/* pagina de início */
+.inicio li{
+    display: inline-block;
+    list-style: none;
+    margin: 9px;
+    padding-bottom: 15px;
+}
+
+.inicio h1{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.inicio li:hover{
+    box-shadow: 0px 0px 15px #000;
+}
+
+/* Rodapé */
+footer{
+    padding: 10px;
+    margin-top: 30px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+/* sobre */
+
+/* h1 do sobre */
+.sobre h1{
+    font-size: 36px;
+    padding: 10px;
+    text-align: center;
+}
+
+.sobre h2{
+    font-size: 25px;
+    text-align: center;
+}
+
+#div1{
+    display: flex;
+    padding: 20px;
+}
+
+.sobre p{
+    margin-left: 20px;
+    width: 100%;
+    text-align: justify;
+}
+
+/* POSTAGENS */
+.blog h1{
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+#posts{
+    overflow: auto;
+    padding: 10px;
+}
+
+#posts > img{
+    width: 150px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+#post1 > p{
+    width: 700px;
+    padding: 5px;
+    float: right;  
+    font-size: 16px;
+    text-align: justify;     
+}
+
+#posts1{
+    display: flex;
+    justify-content: space-between;
+}
+
+#post1 div{
+    float: left;
+}
+
+#posts h2{
+    font-size: 20px;
+    color: blue;
+}
+
+#posts h3, h4{
+    color: rgb(70, 67, 67);
+}
+
+#coment{
+    overflow: hidden;
+    margin-top: 200px;
+    margin-left: 150px;
+}
+
+#coment h1{
+    font-size: 16px;
+    color: grey;
+}
+
+#coment img{
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+#coment1 h2{
+    font-size: 14px;
+}
+
+#coment1 p{
+    font-size: 12px;
+    color: grey;
+    margin-bottom: 20px;
+}
+
+#coment2{
+    margin-left: 100px;
+}
+
+#coment2 h2{
+    font-size: 14px;
+}
+
+#coment2 p{
+    font-size: 12px;
+    color: grey;
+    padding-bottom: 20px;
+}
+
+/* CONTATOS */
+/* Paragrafos e textos */
+#form{
+    overflow: auto;
+    padding: 10px;
+}
+
+#form p{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#form h1{
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: rgb(0, 0, 255);
+}
+
+/* Formulário */
+#form h2{
+    font-size: 14px;
+    color: rgb(36, 35, 35);
+}
+
+/* IMAGEM */
+.contato form img{
+    width: 500px;
+    float: right;
+    margin-top: 100px;
+}
+
+textarea{
+    resize: none;
+}
